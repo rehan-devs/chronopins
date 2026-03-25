@@ -128,18 +128,21 @@ export default function Hero() {
           >
             {/* Browser chrome */}
             <div className="bg-[#0c0c0f] border border-white/[0.06] border-b-0 rounded-t-[24px] px-4 py-3 flex items-center gap-2">
-              <div className="flex gap-[6px]">
-                <div className="w-[10px] h-[10px] rounded-full bg-white/[0.08]" />
-                <div className="w-[10px] h-[10px] rounded-full bg-white/[0.08]" />
-                <div className="w-[10px] h-[10px] rounded-full bg-white/[0.08]" />
-              </div>
-              <div className="flex-1 flex justify-center">
-                <div className="bg-white/[0.04] rounded-md px-4 py-[5px] text-[0.6875rem] text-white/30 font-medium max-w-[280px] w-full text-center">
-                  chronopins.app/explore
-                </div>
-              </div>
-              <div className="w-[54px]" />
-            </div>
+  <div className="flex gap-[6px]">
+    {/* Red dot */}
+    <div className="w-[10px] h-[10px] rounded-full bg-[#FF5F56]" />
+    {/* Yellow dot */}
+    <div className="w-[10px] h-[10px] rounded-full bg-[#FFBD2E]" />
+    {/* Green dot */}
+    <div className="w-[10px] h-[10px] rounded-full bg-[#27CA40]" />
+  </div>
+  <div className="flex-1 flex justify-center">
+    <div className="bg-white/[0.04] rounded-md px-4 py-[5px] text-[0.6875rem] text-white/30 font-medium max-w-[280px] w-full text-center">
+      chronopins.app/explore
+    </div>
+  </div>
+  <div className="w-[54px]" />
+</div>
 
             <MapView />
           </div>
